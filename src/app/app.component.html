@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+</head>
+
+<body>
+  <h1>{{turn}}</h1>
+  <button (click)="restart()">Restart</button>
+  <table>
+    <tbody>
+      <tr>
+        <td class="box" (click)="selectbox(1)" (click)="winning()"></td>
+        <td class="box" (click)="selectbox(2)" (click)="winning()"></td>
+        <td class="box" (click)="selectbox(3)" (click)="winning()"></td>
+      </tr>
+
+      <tr>
+        <td class="box" (click)="selectbox(4)" (click)="winning()"></td>
+        <td class="box" (click)="selectbox(5)" (click)="winning()"></td>
+        <td class="box" (click)="selectbox(6)" (click)="winning()"></td>
+      </tr>
+
+      <tr>
+        <td class="box" (click)="selectbox(7)" (click)="winning()"></td>
+        <td class="box" (click)="selectbox(8)" (click)="winning()"></td>
+        <td class="box" (click)="selectbox(9)" (click)="winning()"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
